@@ -1,0 +1,179 @@
+.Home{
+    
+}
+
+.jobCategory{
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    background: white;
+    padding: 1rem;
+}
+
+.jobCategory:hover{
+    box-shadow: 1px 28px 45px 1px rgba(34, 60, 80, 0.16);
+}
+
+.jobCategoryP{
+    height: 1rem;
+}
+.ppppppppppp{
+    font-size: 1.1rem;
+    width: 40%;
+}
+
+.CardOfJob{
+    border: 1px solid rgba(0, 0, 0, 0.316);
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+
+.CardOfJob:hover{
+    box-shadow: 1px 28px 45px 1px rgba(34, 60, 80, 0.16);
+}
+
+.adressP{
+    color: rgba(0, 0, 0, 0.678);
+    height: 1rem;
+}
+
+.jobName{
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: 1rem;
+}
+
+.byWhom{
+    color: crimson;
+    font-weight: 500;
+}
+
+.theySaysImg{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.TheySays{
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    background-color: whitesmoke;
+    padding: .5rem 1rem 0 1rem;
+    border-radius: 10px;
+}
+
+.mb-7rem{
+    margin-bottom: 7rem;
+}
+
+.TheySaysDiv1{
+    background-color: rgba(0, 0, 255, 0.151);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 0rem .5rem 1rem;
+    margin: 0 0 .5rem 0;
+}
+
+.TheySaysDiv2{
+}
+
+.TheySaysP{
+    height: 1rem;
+    margin-left: .5rem;
+}
+
+.h-Human{
+    background-image: url(../img//Group.png);
+    background-repeat: no-repeat;
+    background-position-x: 30%;
+    background-position-y: 50%;
+    background-size: 90rem;
+}
+
+.h-Home{
+    height: 100vh;
+}
+
+.ourFeaturedJobs{
+    font-size: 3rem;
+    font-weight: 500;
+    height: 3rem;
+}
+
+@media only screen and (max-width: 576px){
+    .h-Human{
+        background-image: url(../img//Group.png);
+        background-repeat: no-repeat;
+        background-position-x: 75%;
+        background-position-y: 100%;
+        background-size: 70rem;
+        height: 100vh;
+    }
+
+    .ppppppppppp{
+        width: 100%;
+    }
+
+    .ourFeaturedJobs{
+        font-size: 2rem;
+        height: 2rem;
+    }
+
+    .md-mb-1{
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .h-Human{
+        background-image: url(../img//Group.png);
+        background-repeat: no-repeat;
+        background-position-x: 75%;
+        background-position-y: 160%;
+        background-size: 63rem;
+        height: 100vh;
+    }
+
+    .ppppppppppp{
+        width: 100%;
+    }
+
+    .ourFeaturedJobs{
+        font-size: 2rem;
+        height: 2rem;
+    }
+
+    .md-mb-1{
+        margin-bottom: 1rem;
+    }
+
+    .jobName{
+        height: 2.9rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .h-Human{
+        background-image: url(../img//Group.png);
+        background-repeat: no-repeat;
+        background-position-x: 75%;
+        background-position-y: 160%;
+        background-size: 97rem;
+        height: 100vh;
+    }
+
+    .ppppppppppp{
+        width: 100%;
+    }
+
+    .ourFeaturedJobs{
+        font-size: 2rem;
+        height: 2rem;
+    }
+
+    .md-mb-1{
+        margin-bottom: 1rem;
+    }
+
+    .jobName{
+        height: 2.9rem;
+    }
+}

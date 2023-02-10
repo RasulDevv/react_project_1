@@ -1,0 +1,98 @@
+.categoryButton{
+    border: none;
+    font-size: 1.1rem;
+    background: none;
+    cursor: pointer;
+    padding: .5rem;
+    margin-top: .8rem;
+    text-align: left;
+}
+
+
+.categoryButton:hover{
+    background: rgb(0, 217, 255);
+    color: white;
+    border-radius: .7rem;
+    transition: .4s;
+}
+
+.categoryButton:active{
+    background: rgb(0, 217, 255);
+    color: white;
+    border-radius: .7rem;
+    transition: .4s;
+}
+
+.categoryButtonClick{
+    background: rgb(0, 217, 255);
+    color: white;
+    border-radius: .7rem;
+}
+
+
+.JobItem{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+    margin-top: 4rem;
+}
+
+.kokroqDiv{
+    background: rgb(0, 217, 255);
+    color: white;
+    margin: 1rem;
+    padding: .3rem 2rem;
+    border-radius: 10px;
+}
+
+.orqaFonOpshiyHeaderOurJobs{
+    background-image: url(../img/womanOurJobs.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 75%;
+    background-size: 36rem;
+    height: 80vh;
+}
+
+.paginationNav{
+    
+}
+
+.paginationUl{
+    display: flex;
+}
+
+.paginationLi{
+    list-style: none;
+    font-size: 1.5rem;
+    border: .1rem solid rgba(0, 0, 0, 0.226);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.paginationColor{
+    color: rgba(0, 0, 0, 0.61);
+}
+
+
+
+.paginationColor:active{
+    color: green;
+}
+
+.paginationColorClick{
+    color: red;
+}
+
+.PaginateBtn{
+    background: rgb(231, 231, 255);
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.PaginateBtn:hover{
+    border: 1px solid rgb(20, 20, 63);
+}
+
+.PaginateBtn:active{
+    background: cornflowerblue;
+    color: white;
+}

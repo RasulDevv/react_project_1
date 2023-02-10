@@ -1,0 +1,97 @@
+.imageForContactUs{
+    width: 43.9%;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+
+.LeaveYourMessageHere{
+    padding-top: 5rem;
+}
+
+.LeaveYourMessageHereFormDiv{
+    padding: 4rem;
+}
+
+.inputForContactUs1{
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    outline: none;
+    background: #EDF3F5;
+}
+
+.yourMessageinputForContactUs1{
+    resize: vertical;
+}
+
+.btnForContactUs{
+    padding: 1rem 3rem;
+    background: #20BFA9;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 576px){
+    .imageForContactUs{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 43%;
+    }
+
+    .LeaveYourMessageHereFormDiv{
+        padding: 0rem;
+    }
+
+    .inputForContactUs1{
+        margin: 1rem;
+    }
+
+    .jobName{
+        height: 4rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .imageForContactUs{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 17%;
+    }
+
+    .LeaveYourMessageHereFormDiv{
+        padding: 0rem;
+    }
+
+    .inputForContactUs1{
+        margin: 1rem;
+    }
+
+    .jobName{
+        height: 4rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .imageForContactUs{
+        width: 91%;
+        position: absolute;
+        right: 0;
+        top: 10%;
+    }
+
+    .LeaveYourMessageHereFormDiv{
+        padding: 0rem;
+    }
+
+    .inputForContactUs1{
+        margin: 1rem;
+    }
+
+    .jobName{
+        height: 4rem;
+    }
+}
